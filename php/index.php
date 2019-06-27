@@ -28,6 +28,12 @@
         echo $txt . hash('sha256', 'John Howard');
     ?>
     </div>
-
+    <div>
+    <?php
+    $x = 12;
+    $y = 12 + $x++;
+    echo "y = $y x = $x";
+    ?>
+    </div
 </body>
 </html>
